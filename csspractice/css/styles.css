@@ -1,0 +1,30 @@
+/* 
+    Evan Meier
+    September 19th, 2024
+    CSS Practice StyleSheet
+*/
+
+
+header, footer {
+    background-color: cornflowerblue;
+}
+
+p, ul, li {
+    font-size: 20px;
+}
+
+#cardLink {
+    color:white;
+}
+
+#cardLink:visited {
+    color:chartreuse;
+}
+
+#cardLink:hover {
+    color:firebrick;
+}
+
+#cardLink:active{
+    color:black;
+}
