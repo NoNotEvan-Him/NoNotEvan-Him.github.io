@@ -1,0 +1,31 @@
+/* 
+    Evan Meier
+    September 19th, 2024
+    Bio Practice Stylesheet
+*/
+
+.intro {
+    font-size: 20px;
+    color:chocolate;
+    font-style: italic;
+    text-align: center;
+}
+
+.hireMe {
+    background-color: aquamarine;
+    color:brown;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.alert {
+    background-color: red;
+    color:white;
+    font-weight: bold;
+    padding:5px;
+}
+
+.blue.alert {
+    background-color: blue;
+}
