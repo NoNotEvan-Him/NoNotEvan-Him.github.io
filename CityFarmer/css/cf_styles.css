@@ -41,7 +41,7 @@ nav ul {
 }
 
 main ul {
-	list-style-image: url('images/tomato.png');
+	list-style-image: url('../images/tomato.png');
 }
 
 h1 {
