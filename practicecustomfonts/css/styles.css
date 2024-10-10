@@ -1,0 +1,16 @@
+/* Practice CustomFonts Style Sheet */
+
+@font-face {
+    font-family: 'blackjack';
+    src: url('../fonts/blackjack-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.websafe{
+    font-family: 'blackjack';
+}
+.google {
+    font-family: 'blackjack';
+}
