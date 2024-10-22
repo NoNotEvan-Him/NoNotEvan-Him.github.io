@@ -1,0 +1,66 @@
+
+/* 
+	Evan Meier
+	October 22nd, 2024
+	Durango Jewelry Team Project
+*/
+ 
+#outerwrapper {	
+	background: rgba(243,205,170, 0.4);
+	border-radius: 15%;
+	width: 70%;
+	margin: auto;
+}
+
+
+html {
+	background-image: url("../images/jewelry.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+footer {
+	font-size: 1em;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+main {
+	background: linear-gradient(#FFFFFF, #F0F9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+img {
+	float: left;
+	border-radius: 50%;
+}
+
+.addrightmargin {
+	margin-right: 10%;
+}
+
+nav {
+	clear: both;
+}
+
+nav li {
+	list-style: none;
+	font-size: 1.5em;
+}
+
+h1 {
+	font-family: "Pacifico", cursive;
+	font-size: 4em;
+}
+
+h2 {
+	font-family: "Roboto";
+	font-style: italic;
+	font-size: 2em;
+}
+
+
