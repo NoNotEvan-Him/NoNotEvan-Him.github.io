@@ -168,7 +168,7 @@ header li a {
 /* FOOTER CSS */
 
 footer {
-    height: 160px;
+    height: 150px;
     margin-top: 50px;
     background-color: #f3f3f3;
     font-family: "Assistant", sans-serif;
@@ -177,7 +177,7 @@ footer {
 
 .ghLogoAlt, .liLogoAlt {
     width: 50px;
-    margin-top: 45px;
+    margin-top: 40px;
 }  
 
 footer a {
