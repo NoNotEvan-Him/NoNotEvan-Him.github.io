@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS Starts Here */
+/* CSS Starts Here */
+
+/* HEADER CSS */
+
+header {
+    height: 105px;
+    background-color: #121212;
+    text-align: center;
+    font-family: "Assistant", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+header ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin-left: 400px;
+}
+
+header li, header li a {
+    float: left;
+    display: block;
+    color: white;
+    padding-left: 20px;
+}
+
+/* LINKS */
+
+header li a {
+    line-height: 107px;
+}
+
+/* BODY AND OTHER */
+
+.emLogo {
+    width: 200px;
+    padding-top: 10px;
+}
+
+.ghLogo, .liLogo {
+    width: 35px;
+    margin-top: 34px;
+    padding-right: 30px;
+}
+
+.mainContainer {
+    display: flex;
+}
+
+.left {
+    margin-left: 400px;
+    margin-top: 80px;
+    width: 550px;
+}
+
+.right {
+    margin-left: 65px;
+    margin-top: 80px;
+}
+
+.right h1 {
+    font-family: "Assistant", sans-serif;
+    color: #121212BF;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.right h2 {
+    font-family: "Noticia Text", serif;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.quantity {
+    font-family: "Assistant", sans-serif;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #121212BF;
+}
+
+.quanImg {
+    margin-top: 10px;
+}
+
+.learnMore {
+    font-family: "Assistant", sans-serif;
+    margin-left: 2px;
+    margin-top: 20px;
+    border: 1px black solid;
+    width: 400px;
+    height: 33px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.learnMore a {
+    color: #121212;
+}
+
+.contactDev {
+    font-family: "Assistant", sans-serif;
+    margin-left: 2px;
+    margin-top: 10px;
+    border: 1px black solid;
+    width: 400px;
+    height: 33px;
+    text-align: center;
+    padding-top: 16px;
+    background-color: #121212;
+}
+
+.contactDev a {
+    color: white;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { 
+    text-decoration: underline; 
+    text-underline-offset: 3px;
+}
+a:active { 
+    text-decoration: underline; 
+    text-underline-offset: 3px;
+}
