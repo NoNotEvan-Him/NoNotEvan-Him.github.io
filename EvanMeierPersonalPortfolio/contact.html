@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Evan Meier Portfolio Website Contact Page">
+    <meta name="keywords" content="HTML, CSS, Portfolio, Evan Meier, Contact">
+    <meta name="author" content="Evan Meier">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/portfolioStyles.css">
+
+    <!--Assistant Font Google Fonts Embed-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!--Noticia Font Google Fonts Embed-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap" rel="stylesheet">
+
+    <title>Contact-Page</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="home.html"><img alt="Evan Meier Logo" src="images/EvanMeierLogo.png" class="emLogo"></a></li>
+            <li><a href="home.html">home</a></li>
+            <li><a href="about.html">about me</a></li>
+            <li><a href="experience.html">experience</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <a target="_blank" href="https://github.com/NoNotEvan-Him"><img alt="GitHub Logo" src="images/GithubLogo.png" class="ghLogo"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/evan-meier-061b762b6/"><img alt="LinkedIn Logo" src="images/LinkedInLogo.png" class="liLogo"></a>
+        </ul>
+    </header>
+    
+    <main class="conMain">
+        <h1>contact me</h1>
+        <form action="mailto:evanmeier352@gmail.com?subject=Personal%20Portfolio%20Contact" enctype="text/plain" method="POST">
+        <fieldset>
+          <label for="company">company:</label>
+          <div>
+            <input type="text" name="company" id="company">
+          </div>
+
+          <label for="poi">person of interest:</label>
+          <div>
+            <input type="text" name="personOfInterest" id="poi">
+          </div>
+
+          <label for="email">email:</label>
+          <div>
+            <input type="email" name="email" id="email" placeholder="Email">
+          </div>
+
+          <label for="phone">phone:</label>
+          <div>
+            <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="phone" placeholder="000-000-0000">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <label for="position">position:</label>
+          <select name="position" id="position">
+            <option value="Internship">internship</option>
+            <option value="Part-time">part-time</option>
+            <option value="Full-time">full-time</option>
+            <option value="Contract">contract</option>
+            <option value="Temporary">temporary</option>
+            <option value="On Call">on call</option>
+          </select>
+
+          <h3 class="howDidFind">how did you find me:</h3>
+          <div class="radioContainer">
+            <span>
+              <input type="radio" name="find" id="LinkedIn" value="LinkedIn">
+              <label for="LinkedIn">LinkedIn</label>
+            </span>
+
+            <span>
+              <input type="radio" name="find" id="JobFair" value="Job Fair">
+              <label for="JobFair">Job Fair</label>
+            </span>
+
+            <span>
+              <input type="radio" name="find" id="CWICorp" value="CWI Corporate Partner" checked>
+              <label for="CWICorp">CWI Corporate Partner</label>
+            </span>
+
+            <span>
+              <input type="radio" name="find" id="Other" value="Other" checked>
+              <label for="Other">Other</label>
+            </span>
+          </div>
+
+          <h3 class="comments">comments:</h3>
+          <div>
+            <textarea name="comment" id="comment"></textarea>
+          </div>
+        </fieldset>
+        <div>
+          <input type="submit" id="submit" value="Submit" class="btn">
+        </div>
+      </form>
+    </main>
+
+    <footer class="conFooter">
+        <a target="_blank" href="https://github.com/NoNotEvan-Him"><img alt="GitHub Logo" src="images/GithubLogoAlt.png" class="ghLogoAlt"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/evan-meier-061b762b6/"><img alt="LinkedIn Logo" src="images/LinkedInLogoAlt.png" class="liLogoAlt"></a>
+        <h1><a href="mailto:evanmeier352@gmail.com"><span style="font-weight: 500;">evanmeier352@gmail.com</span></a></h1>
+        <h1><a href="tel:2088660813"><span style="font-weight: 500;">(208) 866-0813</span></a></h1>
+    </footer>
+
+</body>
+</html>
